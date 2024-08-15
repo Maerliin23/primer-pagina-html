@@ -1,0 +1,165 @@
+/* Estilos generales 
+Define el estilo básico del cuerpo, encabezados, y elementos en negrita.*/
+body {
+    background-color: #def0cf;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+}
+
+h2, h3 {
+    padding-top: 15px;
+    color: black;
+}
+
+b {
+    margin-right: 5px;
+}
+
+/* Estilos de contenedores 
+Organiza los elementos que contienen texto e imágenes.*/
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.intro, .plant-details {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.texto1, .texto2 {
+    padding: 50px;
+    margin: 10px;
+    text-align: justify;
+    color: black;
+}
+
+.intro, .plantas-detalles {
+    padding-top: 50px;
+}
+
+main {
+    padding: 80px 20px 20px;
+    position: relative;
+}
+
+/* Estilos de imagen
+Aplica a imágenes generales, como #imgp y .item-image */
+#imgp {
+    display: block;
+    margin: 0 auto;
+    border-radius: 8px;
+}
+
+.item-image {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-right: 15px;
+    border-radius: 8px;
+}
+
+/* Estilos de listas
+ Aplica a las listas generales y a las listas específicas como .item-list */
+ul {
+    list-style: none;
+    padding: 50px;
+    margin: 10px;
+}
+
+.item-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.item-list li {
+    display: flex;
+    align-items: center;
+    width: calc(50% - 20px);
+    box-sizing: border-box;
+}
+
+/* Estilos del encabezado Incluye la barra de navegación y botones*/
+header {
+    background-color: #9cd38a;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+/* Estilos de navegación Incluye la barra de navegación y botones */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+}
+
+nav li {
+    display: flex;
+    align-items: center;
+}
+
+.nav-button {
+    background-color: #bde2ad;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    color: #2c3629;
+    border-radius: 10px;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+}
+
+.nav-button:hover {
+    background-color: #def0cf;
+}
+
+/* Estilos del pie de página 
+Define la apariencia del pie de página y sus elementos.*/
+footer {
+    background-color: #9cd38a;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+.lista-footer {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.lista-footer li {
+    margin: 0 10px;
+}
+
+.lista-footer a img {
+    width: 30px;
+    height: auto;
+}
+
+/* Estilos del logo Específico para el logo que se muestra junto con los agradecimientos.*/
+#logo {
+    margin-left: 8px;
+    height: 30px;
+}
