@@ -66,6 +66,10 @@ Aplica a imágenes generales, como #imgp y .item-image */
     border-radius: 8px;
 }
 
+#imgpm{
+    text-align: center;
+}
+
 /* Estilos de listas
  Aplica a las listas generales y a las listas específicas como .item-list */
 ul {
