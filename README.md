@@ -11,6 +11,7 @@ Proyecto desplegado: https://herbolaria-mexicana-by-mgz.netlify.app/
 
 
 ## Tecnologías
+
 * HTML
 * CSS
 
