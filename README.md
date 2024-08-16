@@ -14,7 +14,7 @@ Proyecto desplegado: https://herbolaria-mexicana-by-mgz.netlify.app/
 * HTML
 * CSS
 
-Desarrollado con  💜 por [Marlen](https://deluxe-twilight-f4179f.netlify.app ) en [TECHNOLOCHICAS PRO](https://tecnolochicas.mx/)
+Desarrollado con  💜 por [Marlen](https://app.netlify.com/sites/mi-portafolio-marlengz/overview) en [TECHNOLOCHICAS PRO](https://tecnolochicas.mx/)
 
 
 
